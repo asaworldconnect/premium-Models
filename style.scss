@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  li {
+    display: inline;
+  }
+}
+
+#height {
+  width: 100%;
+  background: #ff007a;
+  height: 48px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#wrapper {
+  background: #1e202c;
+  padding: 1px;
+}
+
+

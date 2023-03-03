@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Asaworldconnect design</title>
+  </head>
+  <body>
+    <main>
+      <hr />
+
+      <form>
+        <h1>Book Model</h1>
+
+        <p>
+          <label><p>Name</p> </label>
+          <br />
+          <input
+            type="text"
+            placeholder="placeholder"
+            required
+            id="name"
+            autocomplete="on"
+            checked
+          />
+        </p>
+
+        <div class="flex-4">
+          <div class="mg-rt">
+            <label><p class="book-txt-md">State</p> </label>
+            <br />
+            <input
+              type="text"
+              id="state"
+              placeholder="Enter your state"
+              required
+              autocomplete="on"
+            />
+          </div>
+          <div>
+            <label>Country </label>
+            <br />
+            <input
+              type="text"
+              id="country"
+              placeholder="Enter your Country"
+              required
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="flex-4">
+          <div class="mg-rt">
+            <label> Date from</label>
+            <br />
+            <input
+              type="date"
+              id="date-form"
+              placeholder="Enter your state"
+              required
+            />
+          </div>
+
+          <div>
+            <label><p>Date to</p> </label>
+            <br />
+
+            <input
+              type="date"
+              id="date-to"
+              placeholder="Enter your Country"
+              required
+            />
+          </div>
+        </div>
+
+        <p>
+          <label><p>Price</p> </label>
+          <br />
+          <input
+            type="number"
+            id="price"
+            placeholder="placeholder"
+            required
+            autocomplete="on"
+          />
+        </p>
+
+        <textarea>Job Description</textarea>
+      </form>
+
+      <div class="flex-end">
+        <div></div>
+        <button class="btn-9">Send</button>
+        <div></div>
+      </div>
+    </main>
+  </body>
+</html>
